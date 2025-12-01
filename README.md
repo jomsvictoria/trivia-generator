@@ -38,5 +38,5 @@ python src/api.py
 
 # open another terminal and run app on cli
 python src/cli.py
-
+```
 For detailed API documentation, see [API Documentation](API_DOCUMENTATION.md)
