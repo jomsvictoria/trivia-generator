@@ -32,3 +32,9 @@ source .venv/bin/activate
 
 # install deps
 pip install -r requirements.txt
+
+# serve FLASK api
+python src/api.py
+
+# open another terminal and run app on cli
+python src/cli.py
