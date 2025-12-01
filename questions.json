@@ -28,5 +28,12 @@
     "question": "What is the smallest prime number?",
     "answer": "2",
     "category": "Mathematics"
+  },
+  {
+  "id": "7",
+  "question": "What is the Capital of Japan?",
+  "answer" : "Tokyo",
+  "category" : "Geography",
   }
 ]
+  
