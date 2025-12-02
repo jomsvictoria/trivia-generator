@@ -2,11 +2,11 @@
 
 A small trivia application that:
 - stores trivia questions locally (JSON)
+- list and search trivia questions
 - serves questions via a Flask API (easy to expose via `ngrok`)
 - provides a CLI to view/add questions
 - organized with object-oriented code (Question, QuestionBank)
 - ready for Git/GitHub collaboration
-- includes a unit test example
 
 ---
 
@@ -20,7 +20,8 @@ A small trivia application that:
 ### Setup
 ```bash
 # clone
-git clone <your-repo-url>
+git clone https://github.com/jomsvictoria/trivia-generator.git
+
 cd trivia-generator
 
 # create venv (recommended)
