@@ -1,7 +1,7 @@
 # src/api.py
 from flask import Flask, jsonify, request, abort
 from flask_cors import CORS
-from src.trivia import QuestionBank, Question
+from trivia import QuestionBank, Question
 
 # ----------------------------------------
 # Initialize Flask app and enable CORS
