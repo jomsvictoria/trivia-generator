@@ -26,7 +26,7 @@ cd trivia-generator
 # create venv (recommended)
 python -m venv .venv
 # activate (Windows)
-# .venv\Scripts\activate
+.venv\Scripts\activate
 # mac / linux
 source .venv/bin/activate
 
@@ -38,3 +38,5 @@ python src/api.py
 
 # open another terminal and run app on cli
 python src/cli.py
+```
+For detailed API documentation, see [API Documentation](API_DOCUMENTATION.md)
