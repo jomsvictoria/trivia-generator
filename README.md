@@ -26,7 +26,7 @@ cd trivia-generator
 # create venv (recommended)
 python -m venv .venv
 # activate (Windows)
-# .venv\Scripts\activate
+.venv\Scripts\activate
 # mac / linux
 source .venv/bin/activate
 
