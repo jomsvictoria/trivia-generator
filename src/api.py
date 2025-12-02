@@ -3,7 +3,6 @@ from flask import Flask, jsonify, request, abort
 from flask_cors import CORS
 from trivia import QuestionBank, Question
 
-
 # ----------------------------------------
 # Initialize Flask app and enable CORS
 # CORS = allows API to be used by web apps
