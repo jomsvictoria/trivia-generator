@@ -1,7 +1,8 @@
 # src/api.py
 from flask import Flask, jsonify, request, abort
 from flask_cors import CORS
-from src.trivia import QuestionBank, Question
+from trivia import QuestionBank, Question
+
 
 # ----------------------------------------
 # Initialize Flask app and enable CORS
@@ -79,5 +80,5 @@ def create_question():
 # Run the Flask server
 # debug=True = automatic reload on file changes
 # ----------------------------------------
-if __name__ == "__main__":
-    app.run(port=5000, debug=True)
+if __name__ == "__main__":    
+    app.run(host="0.0.0.0", port=5000, debug=True)
